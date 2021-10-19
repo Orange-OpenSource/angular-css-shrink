@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+dist/
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+.DS_Store
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+/src/common/npm-debug.log
+/src/core/npm-debug.log
+/src/testing/npm-debug.log
+/src/microservices/npm-debug.log
+/src/websockets/npm-debug.log
+/src/coverage
+package-lock.json
+doNotCommit.md
+
+
+# tests
+/test
+/coverage
+/.nyc_output
+build/config\.gypi
+src/user/user.schema.ts.orig
