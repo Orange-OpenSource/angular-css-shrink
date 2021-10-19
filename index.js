@@ -54,10 +54,14 @@ class AngularCssShrink {
       if (className != '') {
         selectorsClean.push(className);
       }
+      // o deal with boosted 5 modales
+      if (className.startsWith('modal-')) {
+        selectorsClean.push(className.slice(6));
+      }
     });
     let found = false;
     selectorsClean.forEach((sc) => {
-      if (angularClasses.has(sc)) {
+      if (angularClasses.has(sc) || angularClasses.has(sc)) {
         found = true;
       }
     });
@@ -72,9 +76,11 @@ class AngularCssShrink {
    */
   extractAngularClass(jsCodes) {
     let jscode = jsCodes.join(' ');
-
+    // for new modal sizing
+    
     let classList = new Map();
     const code = esprima.tokenize(jscode);
+
     const clist = code.filter((t) => t.type == 'String').map((t) => t.value);
     console.log(clist.length);
 

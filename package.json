@@ -1,6 +1,6 @@
 {
   "name": "angular-css-shrink",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular post-processing to reduce css file size by filtering only relevant css classes",
   "main": "index.js",
   "keywords": [
@@ -24,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/Orange-OpenSource/angular-css-shrink.git"
   },
-    "bugs": {
+  "bugs": {
     "url": "https://github.com/Orange-OpenSource/angular-css-shrink/issues"
   },
   "dependencies": {
