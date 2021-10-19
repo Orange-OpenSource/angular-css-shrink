@@ -1,13 +1,10 @@
 [//]: # 'SPDX-FileCopyrightText: 2021 Orange SA'
 [//]: # 'SPDX-License-Identifier: MIT'
 
-<p align="center">
-    <img src="https://boosted.orange.com/docs/4.6/assets/brand/orange_logo.svg" alt="Orange logo" width="50" height="50">
-</p>
 
-<h3 align="center">Angular Css Shrink</h3>
+<h1 align="center">Angular Css Shrink</h1>
 
-A Post analyse script to automatically reduce the size of css for angular App (maybe should work with other frameworks too)
+A Post analysis script to automatically reduce the size of CSS for Angular App (should work with other frameworks too)
 
 ## Table of contents
 
