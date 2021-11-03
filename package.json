@@ -1,6 +1,6 @@
 {
   "name": "angular-css-shrink",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Angular post-processing to reduce css file size by filtering only relevant css classes",
   "main": "index.js",
   "keywords": [
