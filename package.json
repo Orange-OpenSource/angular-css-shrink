@@ -1,6 +1,6 @@
 {
   "name": "angular-css-shrink",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Angular post-processing to reduce css file size by filtering only relevant css classes",
   "main": "index.js",
   "keywords": [
@@ -28,7 +28,7 @@
     "url": "https://github.com/Orange-OpenSource/angular-css-shrink/issues"
   },
   "dependencies": {
-    "@angular-builders/custom-webpack": "^13.0.0",
+    "@angular-builders/custom-webpack": "^14.0.0",
     "css": "^3.0.0",
     "esprima": "^4.0.1",
     "webpack-sources": "^2.3.1"
